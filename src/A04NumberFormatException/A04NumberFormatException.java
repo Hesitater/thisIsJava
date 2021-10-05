@@ -1,4 +1,4 @@
-package chap10.lecture;
+package A04NumberFormatException;
 
 public class A04NumberFormatException {
 	public static void main(String[] args) {

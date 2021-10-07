@@ -22,3 +22,4 @@ public class A15Throws {
 		Class.forName("java.lang.Number2");
 	}
 }
+

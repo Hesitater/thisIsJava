@@ -30,6 +30,5 @@ public class MemberExample {
 		 System.out.println("age : " + original.age );
 		 System.out.println("adult : " + original.adult );
 		 
-		
 	}
 }

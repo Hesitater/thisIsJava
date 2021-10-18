@@ -10,6 +10,7 @@ class StudentComparator implements Comparator<Student> {
 		if(a.sno < b.sno) return -1;
 		else if(a.sno == b.sno) return 0;
 		else return 1;
+//		return Integer.compare(a.sno, b.sno);
 	}
 	
 

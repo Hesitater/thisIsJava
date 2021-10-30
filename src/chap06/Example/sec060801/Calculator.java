@@ -3,6 +3,8 @@ package chap06.Example.sec060801;
 public class Calculator {
 	
 	//메소드
+	String model;
+	String owner;
 	
 	void powerOn() {
 		System.out.println("전원을 켭니다.");

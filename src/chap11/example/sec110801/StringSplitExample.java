@@ -1,4 +1,4 @@
-package chap11.example.sec110702;
+package chap11.example.sec110801;
 
 public class StringSplitExample {
 	public static void main(String[] args) {

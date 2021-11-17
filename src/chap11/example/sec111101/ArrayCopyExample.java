@@ -12,11 +12,11 @@ public class ArrayCopyExample {
 		
 		
 		//방법2
-		char[] arr3 = Arrays.copyOfRange(arr1, 1, 3);
-		System.out.println(Arrays.toString(arr3));
+		char[] arr3 = Arrays.copyOfRange(arr1, 1, 3);    // arr[1]~ arr1[2]를
+		System.out.println(Arrays.toString(arr3));  	// arr3[0]~ arr3[1]로 복사
 		
 		//방법3
-		char[] arr4 = new char[arr1.length];
+		char[] arr4 = new char[arr1.length];				//arr1 전체를 arr4로 복사
 		System.arraycopy(arr1, 0, arr4, 0, arr1.length);
 		for (int i= 0; i < arr4.length; i++) {
 			System.out.println("arr4[" + i + "] = " + arr4[i] );

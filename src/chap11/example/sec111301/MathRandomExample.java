@@ -8,5 +8,6 @@ public class MathRandomExample {
 		
 		int numlo1 = (int) (Math.random()*45) + 1;
 		System.out.println("로또번호중하나:" + numlo1);
+		
 	}
 }

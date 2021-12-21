@@ -12,6 +12,5 @@ public class BooleanExample {
 			System.out.println("시작합니다");
 		}
 		
-		
 	}
 }

@@ -13,7 +13,6 @@ public class Member {
 	}
 
 
-
 	@Override
 	public boolean equals(Object obj) {
 		if(obj instanceof Member) {
